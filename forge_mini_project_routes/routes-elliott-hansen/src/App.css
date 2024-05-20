@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  margin: 0px;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #FFFCE8;
+}
+
+h1 {
+  font-size: 36px;
+  color: #121212;
+  font-family: "Lora";
+}
+
+p {
+  width: 380px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.welcome {
+  font-size: 18px;
+}
+
+.router-col {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 200px;
+  align-items: center;
+}
+
+.router-col span {
+  font-size: 16px;
+  color: #121212;
+}
+
+.router-col a:hover {
+  transform: translateX(8%);
+}
+
+a {
+  text-decoration: none;
+  color: #121212;
+  font-family: "Radio Canada Big";
+  transition: 0.2s;
+}
+
+img {
+  width: 380px;
+  border-radius: 36px;
+}

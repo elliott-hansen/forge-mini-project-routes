@@ -1,0 +1,20 @@
+.contact-area {
+    width: 480px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.message-box {
+    width: auto;
+    height: 250px;
+    resize: none;
+    background-color: #fffef9;
+}
+
+Button {
+    width: 50px;;
+    padding: 0px;
+    margin: 0px;
+
+}

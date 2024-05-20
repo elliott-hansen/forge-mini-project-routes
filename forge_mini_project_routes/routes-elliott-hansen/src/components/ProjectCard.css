@@ -1,0 +1,37 @@
+.project-card {
+    width: 250px;
+    height: 330px;
+    background-color: #FFFDF0;
+    /* border: 2px solid #EAEAEC; */
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #EAEAEC;
+    transition: 0.2s;
+    filter: brightness(98%);
+
+}
+
+.project-card:hover {
+    scale: 102%;
+    filter: brightness(100%);
+}
+
+.project-card-footer {
+    margin-top: auto;
+    height: 30%;
+    width: 100%;
+    filter: brightness(95%);
+    background-color: #FFFDF0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+span {
+    font-size: 18px;
+    margin-left: 18px;
+    font-family: "Lora";
+    font-weight: 500;
+}
